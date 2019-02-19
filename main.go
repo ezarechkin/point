@@ -113,6 +113,3 @@ func handleConnection(connection net.Conn){
 		}
 	}
 }
-
-
-//300454

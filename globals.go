@@ -15,6 +15,6 @@ const(
 	DB_NAME *string = flag.String("dbname", "point", "Database name")
 	DB_PASS *string = flag.String("dbpass", "", "Database password")
 	
-	// Http listener bind address
-	BIND_ADDRESS *string = flag.String("bind_address", "127.0.0.1:3000", "Http listener address")
+	// Tcp ))) listener bind address
+	BIND_ADDRESS *string = flag.String("bind_address", "127.0.0.1:3000", "Tcp listener address")
 )
